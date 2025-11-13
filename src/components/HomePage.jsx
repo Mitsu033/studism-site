@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -6,6 +6,10 @@ import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Download, Clock, BookOpen, Smartphone, Globe } from 'lucide-react';
 
 const HomePage = () => {
+  // ページ読み込み時にトップにスクロール
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const apps = [
     {
       id: 'sakuraenglish',
@@ -49,10 +53,13 @@ const HomePage = () => {
       <header className="bg-white/80 backdrop-blur-md border-b sticky top-0 z-50">
         <div className="container mx-auto px-8 md:px-12 lg:px-16 xl:px-20 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="flex items-center space-x-2 hover:opacity-80 transition-opacity cursor-pointer"
+            >
               <img src="/images/studism-logo.png" alt="Studism" className="w-8 h-8" />
               <span className="text-xl font-bold text-foreground">Studism</span>
-            </div>
+            </button>
             <nav className="hidden md:flex space-x-6">
               <a href="#about" className="font-semibold text-muted-foreground hover:text-foreground transition-colors">会社について</a>
               <a href="#apps" className="font-semibold text-muted-foreground hover:text-foreground transition-colors">アプリ一覧</a>
