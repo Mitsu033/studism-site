@@ -65,16 +65,19 @@ const HomePage = () => {
 
       {/* Hero Section */}
       <section className="relative py-20 overflow-hidden">
-        {/* Background GIF */}
+        {/* Background Video */}
         <div className="absolute inset-0">
-          <img
-            src="/images/hero-animation.gif"
-            alt="Background"
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
             className="w-full h-full object-cover"
-            loading="eager"
-          />
+          >
+            <source src="/images/hero-animation.webm" type="video/webm" />
+          </video>
           {/* Light overlay */}
-          <div className="absolute inset-0 bg-white/70"></div>
+          <div className="absolute inset-0 bg-white/40"></div>
         </div>
 
         <div className="container mx-auto px-8 md:px-12 lg:px-16 xl:px-20 relative z-10">
