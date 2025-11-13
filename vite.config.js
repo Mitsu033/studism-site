@@ -7,8 +7,8 @@ import path from 'path'
 export default defineConfig({
   // GitHub Pagesのベースパス設定
   // リポジトリ名が 'username.github.io' の場合は base: '/' にしてください
-  // それ以外の場合は base: '/リポジトリ名/' に変更してください（例: '/studism-website/'）
-  base: '/studism-website/',
+  // それ以外の場合は base: '/リポジトリ名/' に変更してください（例: '/studism-site/'）
+  base: '/studism-site/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
