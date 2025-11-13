@@ -51,9 +51,7 @@ const HomePage = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
-              </div>
+              <img src="/images/studism-logo.png" alt="Studism" className="w-8 h-8" />
               <span className="text-xl font-bold text-foreground">Studism</span>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -253,9 +251,7 @@ const HomePage = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-background rounded-lg flex items-center justify-center">
-                  <span className="text-foreground font-bold text-lg">S</span>
-                </div>
+                <img src="/images/studism-logo.png" alt="Studism" className="w-8 h-8 invert" />
                 <span className="text-xl font-bold">Studism</span>
               </div>
               <p className="text-background/80 text-sm leading-relaxed">
