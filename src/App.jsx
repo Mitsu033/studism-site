@@ -10,7 +10,7 @@ import GeneralPrivacy from './components/GeneralPrivacy';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/studism-website">
       <div className="min-h-screen bg-background">
         <Routes>
           <Route path="/" element={<HomePage />} />
