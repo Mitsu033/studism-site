@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Download, Clock, BookOpen, Smartphone, Globe } from 'lucide-react';
-import keyVisual from '../assets/key_visual.png';
 
 const HomePage = () => {
   const apps = [
@@ -102,10 +101,11 @@ const HomePage = () => {
             </div>
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-3xl blur-3xl"></div>
-              <img 
-                src={keyVisual} 
-                alt="Studismのキービジュアル" 
+              <img
+                src="/images/hero-animation.gif"
+                alt="Studismのキービジュアル"
                 className="relative z-10 w-full h-auto rounded-2xl shadow-2xl"
+                loading="eager"
               />
             </div>
           </div>
