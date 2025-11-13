@@ -8,7 +8,7 @@ export default defineConfig({
   // GitHub Pagesのベースパス設定
   // リポジトリ名が 'username.github.io' の場合は base: '/' にしてください
   // それ以外の場合は base: '/リポジトリ名/' に変更してください（例: '/studism-website/'）
-  base: process.env.NODE_ENV === 'production' ? '/サイトページす/' : '/',
+  base: '/studism-website/',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {
