@@ -71,7 +71,7 @@ const HomePage = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
+      <section className="relative py-16 overflow-hidden">
         {/* Background Video */}
         <div className="absolute inset-0">
           <video
@@ -101,11 +101,6 @@ const HomePage = () => {
                   <span className="text-primary">もっと自由に</span><br />
                   <span className="text-accent">もっと楽しく</span>
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  Studismは、教育とテクノロジーを融合させた革新的な学習アプリケーションを開発しています。
-                  一人ひとりの学習スタイルに合わせたパーソナライズされた体験を提供し、
-                  知的好奇心を刺激し、自律的な学びを支援します。
-                </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="group" asChild>
