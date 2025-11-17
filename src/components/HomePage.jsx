@@ -94,8 +94,8 @@ const HomePage = () => {
               <div className="space-y-4">
                 <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
                   学びを、<br />
-                  <span className="text-primary">もっと自由に</span><br />
-                  <span className="text-accent">もっと楽しく</span>
+                  <span className="text-primary brightness-110">もっと自由に</span><br />
+                  <span className="text-accent brightness-110">もっと楽しく</span>
                 </h1>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
