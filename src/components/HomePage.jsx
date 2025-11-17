@@ -89,19 +89,13 @@ const HomePage = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white/40 via-white/20 to-transparent"></div>
 
         <div className="container mx-auto px-8 md:px-12 lg:px-16 xl:px-20 relative z-10 h-full flex items-center">
-          <div className="grid lg:grid-cols-2 gap-12 items-center w-full py-12">
-            <div className="space-y-8 p-8 rounded-2xl">
-              <div className="space-y-4">
-                <Badge variant="secondary" className="w-fit">
-                  <BookOpen className="w-4 h-4 mr-2" />
-                  教育テクノロジー
-                </Badge>
-                <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                  学びを、<br />
-                  <span className="text-primary">もっと自由に</span><br />
-                  <span className="text-accent">もっと楽しく</span>
-                </h1>
-              </div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
+            <div className="space-y-6">
+              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+                学びを、<br />
+                <span className="text-primary">もっと自由に</span><br />
+                <span className="text-accent">もっと楽しく</span>
+              </h1>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="group" asChild>
                   <a href="#apps">
