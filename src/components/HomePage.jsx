@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowRight, Download, Clock, BookOpen, Smartphone, Globe } from 'lucide-react';
+import { ArrowRight, Download, Clock, BookOpen, Smartphone, BarChart, Target } from 'lucide-react';
 
 const HomePage = () => {
   // ページ読み込み時にトップにスクロール
@@ -139,25 +139,25 @@ const HomePage = () => {
                 </div>
                 <h3 className="text-xl font-semibold">モバイルファースト</h3>
                 <p className="text-muted-foreground">
-                  いつでもどこでも学習できる、モバイル最適化されたアプリケーション
+                  いつでもどこでも学習できる、シンプルで使いやすいアプリケーション
                 </p>
               </div>
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto">
-                  <Globe className="w-6 h-6 text-accent" />
+                  <BarChart className="w-6 h-6 text-accent" />
                 </div>
-                <h3 className="text-xl font-semibold">グローバル対応</h3>
+                <h3 className="text-xl font-semibold">学習データ可視化</h3>
                 <p className="text-muted-foreground">
-                  世界中の学習者に向けた、多言語・多文化対応のサービス
+                  詳細な学習データの記録と分析で、効率的な学習をサポート
                 </p>
               </div>
               <div className="space-y-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto">
-                  <BookOpen className="w-6 h-6 text-primary" />
+                  <Target className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold">パーソナライズ</h3>
+                <h3 className="text-xl font-semibold">カスタマイズ機能</h3>
                 <p className="text-muted-foreground">
-                  AIを活用した個人最適化された学習体験の提供
+                  自分に合った学習プランと目標設定で、継続的な成長をサポート
                 </p>
               </div>
             </div>
