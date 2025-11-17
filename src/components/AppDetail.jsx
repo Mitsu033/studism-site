@@ -18,15 +18,15 @@ const AppDetail = () => {
       name: 'SakuraEnglish',
       icon: '/images/sakuraenglish.png',
       category: '語学学習',
-      description: '日常英会話からビジネス英語まで、AIを活用したパーソナルコーチングであなたの英語学習をサポートします。発音矯正、ロールプレイング、単語学習など、多彩な機能で効率的な英語力向上を実現します。AIとの自由な会話練習を通じて、実践的なコミュニケーション能力を身につけ、自信を持って英語を話せるようになります。',
+      description: 'レベル別の英単語クイズで効率的に語彙力を強化できるアプリです。5段階のレベル（Lev1-Lev5）から自分に合った難易度を選択でき、カスタム単語リスト機能で自分だけの学習プランを作成できます。間違えた単語の復習機能や習熟度トラッキングにより、着実に英語力を向上させることができます。',
       features: [
-        { icon: <Zap className="w-5 h-5" />, title: 'AI会話練習', description: '自然な会話でスピーキング力を向上' },
-        { icon: <Star className="w-5 h-5" />, title: '発音矯正', description: 'リアルタイムで発音をチェック・改善' },
-        { icon: <Users className="w-5 h-5" />, title: 'ビジネス英語', description: '実務で使える英語表現を習得' }
+        { icon: <Zap className="w-5 h-5" />, title: 'レベル別クイズ', description: '5段階の難易度で自分に合った学習' },
+        { icon: <Star className="w-5 h-5" />, title: 'カスタム単語リスト', description: '自分だけの単語帳を作成可能' },
+        { icon: <Users className="w-5 h-5" />, title: '復習＆トラッキング', description: '間違えた単語の復習と習熟度管理' }
       ],
       screenshots: [
         { title: 'メイン画面', description: 'シンプルで使いやすいインターフェース' },
-        { title: 'AI会話', description: 'AIとの自然な英会話練習' },
+        { title: 'クイズ画面', description: 'レベル別の英単語クイズ' },
         { title: '学習進捗', description: '詳細な学習データと分析' }
       ],
       appStoreUrl: 'https://apps.apple.com/jp/app/sakuraenglish/id6747013736',

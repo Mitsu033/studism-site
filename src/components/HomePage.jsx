@@ -14,10 +14,10 @@ const HomePage = () => {
     {
       id: 'sakuraenglish',
       name: 'SakuraEnglish',
-      description: '日常英会話からビジネス英語まで、AIを活用したパーソナルコーチングであなたの英語学習をサポート。',
+      description: 'レベル別の英単語クイズで効率的に語彙力を強化。カスタム単語リスト機能で自分だけの学習プランを作成。',
       icon: '/images/sakuraenglish.png',
       category: '語学学習',
-      features: ['AI会話練習', '発音矯正', 'ビジネス英語']
+      features: ['レベル別クイズ', 'カスタム単語リスト', '復習機能']
     },
     {
       id: 'timelyze',
