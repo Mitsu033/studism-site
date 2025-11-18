@@ -122,6 +122,7 @@
 /* スムーズスクロールアニメーション */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* スティッキーヘッダーの高さ分のオフセット */
 }
 
 /* より詳細なスムーズスクロール設定 */
