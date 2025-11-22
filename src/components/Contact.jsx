@@ -39,8 +39,7 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      const GAS_URL = 'https://script.google.com/macros/s/AKfycbxPrbCIatPYUTYTVN029gznV1J8sowzABvFjh8PaTH7xSMG76t5ekBy9byOTkLAmVWAmg/exec';
-      const response = await fetch(GAS_URL, {
+      const response = await fetch(import.meta.env.VITE_CONTACT_API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain;charset=utf-8',
